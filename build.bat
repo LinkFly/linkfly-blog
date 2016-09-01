@@ -1,0 +1,1 @@
+"d:\program-files\lispstick\Steel Bank Common Lisp\1.3.9\sbcl.exe" --core "d:\program-files\lispstick\Steel Bank Common Lisp\1.3.9\sbcl.core" --script build.lisp

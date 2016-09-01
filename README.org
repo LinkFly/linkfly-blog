@@ -1,0 +1,13 @@
+* Linkfly-Blog 
+
+** Usage
+
+** Installation
+
+** Author
+
++ Sergey Katrevich (linkfly@yandex.ru)
+
+** Copyright
+
+Copyright (c) 2016 Sergey Katrevich (linkfly@yandex.ru)
