@@ -5,4 +5,5 @@
 (in-package :linkfly-blog)
 
 (defun run()
-  (start))
+  (start)
+  (read))

@@ -8,8 +8,8 @@
   #'linkfly-blog:run)
 |#
 (sb-ext:save-lisp-and-die 
-  #+:os-windows "linkfly-blog-0.0.3.exe"
-  #+:linux "linkfly-blog-0.0.3.elf"
+  #+:os-windows "build/linkfly-blog-0.0.4.exe"
+  #+:Linux "build/linkfly-blog-0.0.4.elf"
  :toplevel #'linkfly-blog:run :executable t)
 
 
