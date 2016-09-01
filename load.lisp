@@ -4,9 +4,11 @@
   (setf this-dir (make-pathname :defaults *load-pathname* :name nil :type nil))
   (setf load-data (with-open-file (stream (merge-pathnames sexp-filename this-dir))
 		    (read stream)))
-  (mapc #'load (list (getf load-data :asdf) (getf load-data :quicklisp-setup)))
+  (mapcar (lambda (key &aux file)
+	    (setf file (getf load-data key))
+	    (and file (load file)))
+	  '(:asdf :quicklisp-setup))
   (push this-dir (symbol-value (find-symbol "*CENTRAL-REGISTRY*" :asdf)))
   )
 (ql:quickload :linkfly-blog)
-
 
