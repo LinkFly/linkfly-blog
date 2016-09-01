@@ -1,4 +1,4 @@
-(:asdf nil;#P"c:/Users/User/Dropbox/my-projects/eng-training/asdf.lisp"
+(:asdf nil
        :quicklisp-setup #P"d:/program-files/lispstick/quicklisp/setup.lisp"
        )
 	     
